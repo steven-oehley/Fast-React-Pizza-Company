@@ -1,0 +1,30 @@
+- Users should be able to order one or more pizzas
+- Requires no user accounts
+- Data loaded from an API as menu can change
+- Mutiple pizzas can be added to cart before checkout 
+- Orders require users name, phone number and adress
+- if possible gps location should be provided
+- should be able to mark order as priority (20% markup)
+- orders made through post request 
+- payments made on delivery - no online payment needed
+- each order unique id (allows users to search for their order)
+- should be able to mark as priority even after order placed
+
+# Feature Categories:
+- User 
+- Menu 
+- Cart 
+- Order 
+
+# Necessary Pages
+- HomePage (/)
+- Menu (/menu)
+- Cart (/cart)
+- New Order (/order/new)
+- Order Lookup (/order/:orderID)
+
+# State domains / slices (normally map to app features)
+- User (Global UI)
+- Menu (Global Remote)
+- Cart (Global UI)
+- Order (Global remote)
