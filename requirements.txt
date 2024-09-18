@@ -28,3 +28,20 @@
 - Menu (Global Remote)
 - Cart (Global UI)
 - Order (Global remote)
+
+
+# Tech 
+- routing - React Router
+- styling - Tailwindcss
+- Remote state management - React Router (reder as you fetch)
+- UI state management - Redux
+
+# Professional File Structure Tips
+- ultimately up to developer- one way can be done 
+- group by features in features folder- hooks, components etc all grouped by feature - co-located  
+- reusable UI components in ui/components folder (common components)
+- services folder - reusable code for interacting with API
+- utils folder - helper functions that can be reused in app, stateless helper functions, no side effects (eg date or number manipulations)
+- reusable hooks folder
+- reusable contexts folder 
+- seperate pages folder
