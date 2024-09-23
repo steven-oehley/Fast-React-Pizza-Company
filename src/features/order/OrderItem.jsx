@@ -1,5 +1,6 @@
 import formatCurrency from '../../utils/formatCurrency';
-function OrderItem({ item, isLoadingIngredients, ingredients }) {
+
+function OrderItem({ item }) {
   const { quantity, name, totalPrice } = item;
 
   return (
